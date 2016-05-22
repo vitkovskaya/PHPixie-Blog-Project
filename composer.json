@@ -1,0 +1,30 @@
+{
+    "name": "vitkovskaya/phpixie-blog-project",
+    "type": "project",
+    "description" : "PHPixie blog project",
+    "license" : "BSD",
+    "autoload": {
+        "psr-4": {
+            "": [
+                "src/",
+                "tests/",
+
+                "bundles/blog/src/",
+                "bundles/blog/tests/"
+            ]
+        }
+    },
+    "require": {
+        "phpixie/default-bundle": "~3.1",
+        "phpixie/bundle-framework": "~3.1",
+        "robmorgan/phinx": "^0.5.3"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.*-dev"
+        }
+    }
+}

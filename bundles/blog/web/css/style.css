@@ -1,0 +1,101 @@
+/* General */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 900px;
+}
+
+a, .btn-link {
+    color: #e5356b;
+}
+
+a:hover, .btn-link:hover,
+a:focus, .btn-link:focus,
+a:active, .btn-link:active {
+    color: #cc1c52;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 75px;
+}
+
+/* Header */
+.site-header {
+    background: #efefef;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.blog-logo {
+    float: left;
+    margin-right: 12px;
+}
+
+.blog-logo img {
+    border-radius: 50%;
+}
+
+.blog-title {
+    font-size: 1.85em;
+    font-weight: bold;
+}
+
+.blog-description {
+    font-weight: 300;
+    color: #666;
+}
+
+.blog-nav {
+    padding-top: 12px;
+    text-align: right;
+}
+
+.blog-nav li.active a {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .blog-logo {
+        float: none;
+        margin-right: 0;
+    }
+
+    .blog-logo, .blog-title, .blog-description, .blog-nav {
+        text-align: center;
+    }
+
+    .site-header {
+        padding-bottom: 5px;
+    }
+}
+
+/* Middle */
+
+/* Footer */
+.site-footer {
+    background: #efefef;
+    border-top: 1px solid #ccc;
+    padding: 15px 0;
+    line-height: 32px;
+    height: 60px;
+    font-weight: 300;
+}
+
+.framework-link {
+    background: url(../img/icon_phpixie.png) left center no-repeat;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+/* Other */
